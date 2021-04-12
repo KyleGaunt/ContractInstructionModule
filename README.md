@@ -1,4 +1,4 @@
-# ContractInstructionModule
+# Contract Instruction Module
 
 A Contract Instruction (henceforth CI) has an impact on the various resources of a construction project, be it time, materials or monetary. Due to the importance of the CI in the role of construction, it is vital that construction professionals keep track of and adhere to its contents.
 
