@@ -16,4 +16,11 @@ Users can issue a new instruction, specify which areas of the project will be af
 The system includes a full reporting suite which will include reports on the project as a whole, as well as user-defined filtered reports on CIs that meet the specified criteria. The reports can be sent out via email to any user(s) specified by the creator of the CI.
 </details>
 
-
+<details>
+<summary>Software Requirements Specification</summary>
+  <br>
+  <a href="ContractInstructionSRS_V1.0.pdf" target="_blank">View SRS as PDF</a>
+  <br>
+  
+  <a id="raw-url" href="https://raw.githubusercontent.com/kylegaunt/ContractInstructionModule/master/ContractInstructionSRS_V1.0.pdf">Download SRS as PDF</a>
+</details>
