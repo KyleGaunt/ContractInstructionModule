@@ -1,9 +1,9 @@
 # Contract Instruction Module
 
-<details open>
+<details>
 <summary>Introduction</summary>
 <br>
- A Contract Instruction (henceforth CI) has an impact on the various resources of a construction project, be it time, materials or monetary. Due to the importance of the CI in the role of construction, it is vital that construction professionals keep track of and adhere to its contents.
+A Contract Instruction (henceforth CI) has an impact on the various resources of a construction project, be it time, materials or monetary. Due to the importance of the CI in the role of construction, it is vital that construction professionals keep track of and adhere to its contents.
 
 Currently, the process of issuing, editing and interacting with CIs is still done with pen and paper on site, typed up and finalized at the creator’s place of work and then distributed using email chains between all involved parties. This means that all relevant information is provided in plain text and must therefore be organised into their relevant categories by each person involved. There is no error checking or notification system to ensure that CIs are being created accurately and alerting users as soon as one is created. 
 
