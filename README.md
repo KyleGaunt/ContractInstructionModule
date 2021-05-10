@@ -1,3 +1,10 @@
+TODO
+- [x] add project logo
+- [x] add LinkedIn link
+- [x] add profile
+- [ ] add link to user manual
+- [ ] add link to project management
+
 <p align="center">
   <img width="25%" height="50%" src="https://user-images.githubusercontent.com/48382034/117657527-f399fd00-b199-11eb-94b9-9c1735818ef1.png">
   <h1 align="center">The Contract Instruction Application</h1>
