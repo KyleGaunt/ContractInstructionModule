@@ -1,7 +1,7 @@
 # Contract Instruction Module
 
-<details>
-<summary>Introduction</summary>
+
+## Introduction
 <br>
 A Contract Instruction (henceforth CI) has an impact on the various resources of a construction project, be it time, materials or monetary. Due to the importance of the CI in the role of construction, it is vital that construction professionals keep track of and adhere to its contents.
 
@@ -14,6 +14,31 @@ In order to solve the aforementioned problems, the Contract Instruction Applicat
 Users can issue a new instruction, specify which areas of the project will be affected, and create custom lists of contacts with which the instruction will be shared. Depending on user privileges, the receiver will be able to interact with the CI accordingly and all relevant parties will be updated in the event of any changes.
 
 The system includes a full reporting suite which will include reports on the project as a whole, as well as user-defined filtered reports on CIs that meet the specified criteria. The reports can be sent out via email to any user(s) specified by the creator of the CI.
+
+<details>
+<summary>About the Developer</summary>
+
+  ![profilePic](https://user-images.githubusercontent.com/48382034/117629437-757a2e00-b17a-11eb-8ea0-b3969cfbb1c4.jpg)
+  <br>
+  
+  Name: _Kyle Gaunt_
+  <br>
+  Degree: _Bachelor of Science Information Technology in Information and Knowledge Systems_
+  <br>
+  
+  Skills:
+  * _Software development_
+  * _Problem solving_
+  * _Client interaction_
+  * _Gaming_
+
+  Interests:
+  * _Software engineering_
+  * _Developing applications and algorithms to solve problems_
+  * _Cryptocurrency_
+  * _Travel_
+  <br>
+  <a id="raw-url" href="https://www.linkedin.com/in/kvgaunt">Check out my LinkedIn profile</a>
 </details>
 
 <details>
@@ -22,5 +47,5 @@ The system includes a full reporting suite which will include reports on the pro
   <a href="ContractInstructionSRS_V1.0.pdf" target="_blank">View SRS as PDF</a>
   <br>
   
-  <a id="raw-url" href="https://raw.githubusercontent.com/kylegaunt/ContractInstructionModule/master/ContractInstructionSRS_V1.0.pdf">Download SRS as PDF</a>
+  <a id="raw-url" href="https://raw.githubusercontent.com/kylegaunt/ContractInstructionModule/master/ContractInstructionSRS_V1.0.pdf" target="_blank">Download SRS as PDF</a>
 </details>
