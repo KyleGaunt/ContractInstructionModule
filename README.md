@@ -6,14 +6,14 @@ TODO
 - [ ] add link to project management
 
 <p align="center">
-  <img width="25%" height="50%" src="https://user-images.githubusercontent.com/48382034/117657527-f399fd00-b199-11eb-94b9-9c1735818ef1.png">
+  <img width="15%" height="30%" src="https://user-images.githubusercontent.com/48382034/117657527-f399fd00-b199-11eb-94b9-9c1735818ef1.png">
   <h1 align="center">The Contract Instruction Application</h1>
 </p>
+<br>
 
-
-
-
-## Introduction
+<p align="center">
+  <h2 align="center">Introduction</h2>
+</p>
 <br>
 A Contract Instruction (henceforth CI) has an impact on the various resources of a construction project, be it time, materials or monetary. Due to the importance of the CI in the role of construction, it is vital that construction professionals keep track of and adhere to its contents.
 
@@ -29,8 +29,9 @@ The system includes a full reporting suite which will include reports on the pro
 
 <details>
 <summary>About the Developer</summary>
-
-  ![profilePic](https://user-images.githubusercontent.com/48382034/117629437-757a2e00-b17a-11eb-8ea0-b3969cfbb1c4.jpg)
+  <p align="center">
+    <img width="15%" height="25%" src="https://user-images.githubusercontent.com/48382034/117629437-757a2e00-b17a-11eb-8ea0-b3969cfbb1c4.jpg">
+  </p>
   <br>
   
   Name: _Kyle Gaunt_
