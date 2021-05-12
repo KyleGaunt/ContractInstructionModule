@@ -1,7 +1,7 @@
 ## Quick Links
 
 ### Project Management
-  <a id="SlackURL" target="_blank" href="https://trello.com/b/WOpeWQzv">Slack Page</a>
+  <a id="SlackURL" target="_blank" href="https://join.slack.com/t/contractinstr-w7z2139/shared_invite/zt-qbjgyzk4-H~7abajx7GNOWU6AVowRBw">Slack Page</a>
   <br>
 ### User Manual
 
