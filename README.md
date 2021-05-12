@@ -1,6 +1,10 @@
 ## Quick Links
 
-
+### Project Management
+ <a id="TrelloURL" target="_blank" href="https://trello.com/b/WOpeWQzv/todo">Trello Board</a>
+  <br>
+  <a id="SlackURL" target="_blank" href="https://app.slack.com/client/T021UHC43C4/C021NCP1SRG">Slack Page</a>
+  <br>
 ### User Manual
 
 TODO
