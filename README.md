@@ -1,10 +1,6 @@
 ## Quick Links
 
-### Project Management Tools
-<a id="TrelloURL" target="_blank" href="https://trello.com/b/WOpeWQzv/todo">Trello Board</a>
-<br>
-<a id="SlackURL" target="_blank" href="https://app.slack.com/client/T021UHC43C4/C021NCP1SRG">Slack Page</a>
-<br>
+
 ### User Manual
 
 TODO
@@ -70,4 +66,11 @@ The system includes a full reporting suite which will include reports on the pro
   <br>
   
   <a id="LinkedInURL" href="https://raw.githubusercontent.com/kylegaunt/ContractInstructionModule/master/ContractInstructionSRS_V1.0.pdf" target="_blank">Download SRS as PDF</a>
+</details>
+
+<details>
+<summary>Project Management Tools</summary>
+  <a id="TrelloURL" target="_blank" href="https://trello.com/b/WOpeWQzv/todo">Trello Board</a>
+  <br>
+  <a id="SlackURL" target="_blank" href="https://app.slack.com/client/T021UHC43C4/C021NCP1SRG">Slack Page</a>
 </details>
