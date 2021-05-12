@@ -1,9 +1,9 @@
 ## Quick Links
 
 ### Project Management Tools
-<a id="TrelloURL" href="https://trello.com/b/WOpeWQzv/todo">Trello Board</a>
+<a id="TrelloURL" target="_blank" href="https://trello.com/b/WOpeWQzv/todo">Trello Board</a>
 <br>
-<a id="SlackURL" href="https://app.slack.com/client/T021UHC43C4/C021NCP1SRG">Slack Page</a>
+<a id="SlackURL" target="_blank" href="https://app.slack.com/client/T021UHC43C4/C021NCP1SRG">Slack Page</a>
 <br>
 ### User Manual
 
