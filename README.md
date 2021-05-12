@@ -10,7 +10,7 @@ TODO
 - [x] add LinkedIn link
 - [x] add profile
 - [ ] add link to user manual
-- [ ] add link to project management
+- [x] add link to project management
 
 <p align="center">
   <img width="15%" height="30%" src="https://user-images.githubusercontent.com/48382034/117657527-f399fd00-b199-11eb-94b9-9c1735818ef1.png">
