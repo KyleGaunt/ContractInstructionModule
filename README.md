@@ -1,3 +1,12 @@
+## Quick Links
+
+### Project Management Tools
+<a id="TrelloURL" href="https://trello.com/b/WOpeWQzv/todo">Trello Board</a>
+<br>
+<a id="SlackURL" href="https://app.slack.com/client/T021UHC43C4/C021NCP1SRG">Slack Page</a>
+<br>
+### User Manual
+
 TODO
 - [x] add project logo
 - [x] add LinkedIn link
@@ -60,5 +69,5 @@ The system includes a full reporting suite which will include reports on the pro
   <a href="ContractInstructionSRS_V1.0.pdf" target="_blank">View SRS as PDF</a>
   <br>
   
-  <a id="raw-url" href="https://raw.githubusercontent.com/kylegaunt/ContractInstructionModule/master/ContractInstructionSRS_V1.0.pdf" target="_blank">Download SRS as PDF</a>
+  <a id="LinkedInURL" href="https://raw.githubusercontent.com/kylegaunt/ContractInstructionModule/master/ContractInstructionSRS_V1.0.pdf" target="_blank">Download SRS as PDF</a>
 </details>
