@@ -1,16 +1,10 @@
 ## Quick Links
-
 ### Project Management
   <a id="SlackURL" target="_blank" href="https://join.slack.com/t/contractinstr-w7z2139/shared_invite/zt-qbjgyzk4-H~7abajx7GNOWU6AVowRBw">Slack Page</a>
   <br>
 ### User Manual
-
-TODO
-- [x] add project logo
-- [x] add LinkedIn link
-- [x] add profile
-- [ ] add link to user manual
-- [x] add link to project management
+ <a id="UserManual" target="_blank" href="https://github.com/KyleGaunt/ContractInstructionModule/blob/e9a0966cf19e6bae732bc52c16b1b17d860eced9/Documentation/UserManual_CI_Application.pdf">User Manual</a>
+<hr>
 
 <p align="center">
   <img width="15%" height="30%" src="https://user-images.githubusercontent.com/48382034/117657527-f399fd00-b199-11eb-94b9-9c1735818ef1.png">
