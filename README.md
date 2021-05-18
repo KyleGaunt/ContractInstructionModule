@@ -2,6 +2,9 @@
 ### Project Management
   <a id="SlackURL" target="_blank" href="https://join.slack.com/t/contractinstr-w7z2139/shared_invite/zt-qbjgyzk4-H~7abajx7GNOWU6AVowRBw">Slack Page</a>
   <br>
+  <a id="ZenhubURL" target="_blank" href="https://app.zenhub.com/workspaces/software-engineering-team-609bb8556f840f000e074222/board">Zenhub Page</a>
+  <br>
+  
 ### User Manual
  <a id="UserManual" target="_blank" href="https://github.com/KyleGaunt/ContractInstructionModule/blob/e9a0966cf19e6bae732bc52c16b1b17d860eced9/Documentation/UserManual_CI_Application.pdf">User Manual</a>
 <hr>
