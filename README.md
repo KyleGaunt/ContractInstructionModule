@@ -47,13 +47,15 @@ The system includes a full reporting suite which will include reports on the pro
   * _Software development_
   * _Problem solving_
   * _Client interaction_
-  * _Gaming_
+  * _Collaboration and teamwork_
+  * _Time management and organization_
 
   Interests:
   * _Software engineering_
   * _Developing applications and algorithms to solve problems_
   * _Cryptocurrency_
   * _Travel_
+  * _Gaming_
   <br>
   <a id="raw-url" href="https://www.linkedin.com/in/kvgaunt">Check out my LinkedIn profile</a>
 </details>
