@@ -60,7 +60,8 @@ The system includes a full reporting suite which will include reports on the pro
   <br>
   <a href="https://github.com/KyleGaunt/ContractInstructionModule/blob/fb0d3d7b952314d48d6bb9ebd49e7e4d53e2286b/Documentation/SoftwareRequirementsSpecification_CIApplication.pdf" target="_blank">Software Requirements Specification</a>
   <br>
-  href="https://github.com/KyleGaunt/ContractInstructionModule/blob/e9a0966cf19e6bae732bc52c16b1b17d860eced9/Documentation/UserManual_CI_Application.pdf" target="_blank">User Manual</a>
+  
+  <a href="https://github.com/KyleGaunt/ContractInstructionModule/blob/e9a0966cf19e6bae732bc52c16b1b17d860eced9/Documentation/UserManual_CI_Application.pdf" target="_blank">User Manual</a>
   <br>
 </details>
 
