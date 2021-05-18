@@ -76,3 +76,8 @@ The system includes a full reporting suite which will include reports on the pro
   <br>
   <a id="SlackURL" target="_blank" href="https://app.slack.com/client/T021UHC43C4/C021NCP1SRG">Slack Page</a>
 </details>
+
+<!--
+[![Kyle's](https://github-readme-stats.vercel.app/api?username=kylegaunt&show_icons=true&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+-->
+
