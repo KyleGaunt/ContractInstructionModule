@@ -56,7 +56,7 @@ The system includes a full reporting suite which will include reports on the pro
 </details>
 
 <details>
-<summary>Software Requirements Specification</summary>
+<summary>Documentation</summary>
   <br>
   <a href="ContractInstructionSRS_V1.0.pdf" target="_blank">View SRS as PDF</a>
   <br>
