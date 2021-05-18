@@ -58,10 +58,10 @@ The system includes a full reporting suite which will include reports on the pro
 <details>
 <summary>Documentation</summary>
   <br>
-  <a href="ContractInstructionSRS_V1.0.pdf" target="_blank">View SRS as PDF</a>
+  <a href="https://github.com/KyleGaunt/ContractInstructionModule/blob/fb0d3d7b952314d48d6bb9ebd49e7e4d53e2286b/Documentation/SoftwareRequirementsSpecification_CIApplication.pdf" target="_blank">Software Requirements Specification</a>
   <br>
-  
-  <a id="LinkedInURL" href="https://raw.githubusercontent.com/kylegaunt/ContractInstructionModule/master/ContractInstructionSRS_V1.0.pdf" target="_blank">Download SRS as PDF</a>
+  href="https://github.com/KyleGaunt/ContractInstructionModule/blob/e9a0966cf19e6bae732bc52c16b1b17d860eced9/Documentation/UserManual_CI_Application.pdf" target="_blank">User Manual</a>
+  <br>
 </details>
 
 <details>
