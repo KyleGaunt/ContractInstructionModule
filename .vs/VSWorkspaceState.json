@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ciApp",
-    "\\ciApp\\navigation",
-    "\\ciApp\\screens"
+    "\\ciApp"
   ],
-  "SelectedNode": "\\ciApp\\screens\\MyProfile.js",
+  "SelectedNode": "\\LaTeX",
   "PreviewInSolutionExplorer": false
 }
