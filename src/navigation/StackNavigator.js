@@ -32,7 +32,20 @@ const MainStackNavigator = () => {
                 },
               }}
             />
-            <Stack.Screen name="CreateNewCI" component={CreateNewCI} />
+            <Stack.Screen
+              name="CreateNewCI"
+              component={CreateNewCI}
+              options={{
+                title: "Create New CI",
+                headerStyle: {
+                  backgroundColor: '#21293D'
+                },
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                  fontWeight: 'bold'
+                },
+              }}
+            />
             <Stack.Screen name="MyProfile" component={MyProfile} />
         </Stack.Navigator>
     );
