@@ -18,7 +18,20 @@ const screenOptionStyle = {
 const MainStackNavigator = () => {
     return (
         <Stack.Navigator>
-            <Stack.Screen name="Home" component={Home} />
+            <Stack.Screen
+              name="Home"
+              component={Home}
+              options={{
+                title: "Home Screen",
+                headerStyle: {
+                  backgroundColor: '#21293D'
+                },
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                  fontWeight: 'bold'
+                },
+              }}
+            />
             <Stack.Screen name="CreateNewCI" component={CreateNewCI} />
             <Stack.Screen name="MyProfile" component={MyProfile} />
         </Stack.Navigator>
