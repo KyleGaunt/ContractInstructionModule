@@ -8,8 +8,21 @@ const Drawer = createDrawerNavigator();
 const DrawerNavigator = () => {
   return (
     <Drawer.Navigator>
-      <Drawer.Screen name="Home" component={MainStackNavigator} />
-      <Drawer.Screen name="MyProfile" component={SecondaryStackNavigator} />
+      <Drawer.Screen
+        name="My Profile"
+        component={SecondaryStackNavigator}
+        options={{
+          title: "My Profile",
+          headerStyle: {
+            backgroundColor: '#21293D'
+          },
+          headerTintColor: '#fff',
+          headerTitleStyle: {
+            fontWeight: 'bold'
+          },
+        }}
+        />
+      <Drawer.Screen name="Sign Out" component={MainStackNavigator} />
     </Drawer.Navigator>
   );
 }

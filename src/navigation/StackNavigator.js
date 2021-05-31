@@ -46,7 +46,19 @@ const MainStackNavigator = () => {
                 },
               }}
             />
-            <Stack.Screen name="MyProfile" component={MyProfile} />
+            <Stack.Screen name="MyProfile"
+              component={MyProfile}
+              options={{
+                title: "My Profile",
+                headerStyle: {
+                  backgroundColor: '#21293D'
+                },
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                  fontWeight: 'bold'
+                },
+              }}
+            />
         </Stack.Navigator>
     );
 }
