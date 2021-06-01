@@ -46,7 +46,8 @@ const MainStackNavigator = () => {
                 },
               }}
             />
-            <Stack.Screen name="MyProfile"
+            <Stack.Screen
+              name="My Profile"
               component={MyProfile}
               options={{
                 title: "My Profile",

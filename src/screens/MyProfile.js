@@ -1,10 +1,28 @@
 import React from "react";
-import { View, StyleSheet, Text } from "react-native";
+import { View, StyleSheet, Text, Image, TouchableOpacity, Button } from "react-native";
+import Divider from "react-native-divider";
+import {IconButton, Colors, Icon } from "react-native-paper";
 
 const MyProfile = () => {
   return (
     <View style={styles.center}>
-      <Text>This is the My Profile screen</Text>
+      <Text />
+      <TouchableOpacity
+        // onPress={goToCreateNewCI}
+        style={styles.editProfileButton}
+      >
+        <Text style={styles.editProfileButtonText}>Edit</Text>
+     </TouchableOpacity>
+      <Image
+        style={styles.profilePicture}
+        source={require("../assets/profilePicturePlaceholder.png")}
+      />
+      <Text />
+      <Text style={styles.todo}>TODO: Get user name and surname from DB</Text>
+      <Text style={styles.todo}>TODO: Get user job from DB</Text>
+      <Divider></Divider>
+      <Text style={styles.todo}>TODO: Get user email address from DB</Text>
+      <Text style={styles.todo}>TODO: Get user company from DB</Text>
     </View>
   );
 };
@@ -12,9 +30,40 @@ const MyProfile = () => {
 const styles = StyleSheet.create({
   center: {
     flex: 1,
-    justifyContent: "center",
+    paddingTop: 10,
     alignItems: "center",
     textAlign: "center",
+  },
+  todo: {
+    color: "red",
+    backgroundColor: "yellow",
+  },
+  profilePicture: {
+    width: 200,
+    height: 200,
+    borderRadius: 10,
+  },
+  editProfileButton: {
+      flex: 0.075,
+      backgroundColor: "#21293D",
+      width: 100,
+      height:50,
+      borderRadius: 5,
+      shadowColor: "#000",
+      shadowOffset: {
+      	width: 0,
+      	height: 2,
+      },
+      shadowOpacity: 0.25,
+      shadowRadius: 3.84,
+      elevation: 5,
+  },
+  editProfileButtonText: {
+    fontSize: 20,
+    textAlign: "center",
+    color: "#fff",
+    marginTop: 5,
+    textTransform: "uppercase",
   },
 });
 
