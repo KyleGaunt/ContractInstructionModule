@@ -2,17 +2,12 @@ import React from "react";
 import { View, StyleSheet, Text, Image, TouchableOpacity, Button } from "react-native";
 import Divider from "react-native-divider";
 import {IconButton, Colors, Icon } from "react-native-paper";
+import EditMyProfile from "../screens/EditMyProfile";
 
-const MyProfile = () => {
+const MyProfile = ({navigation}) => {
   return (
     <View style={styles.center}>
       <Text />
-      <TouchableOpacity
-        // onPress={goToCreateNewCI}
-        style={styles.editProfileButton}
-      >
-        <Text style={styles.editProfileButtonText}>Edit</Text>
-     </TouchableOpacity>
       <Image
         style={styles.profilePicture}
         source={require("../assets/profilePicturePlaceholder.png")}

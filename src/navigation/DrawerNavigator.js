@@ -6,6 +6,7 @@ import { MainStackNavigator, SecondaryStackNavigator } from "./StackNavigator";
 import Home from "../screens/Home";
 import CreateNewCI from "../screens/CreateNewCI";
 import MyProfile from "../screens/MyProfile";
+import EditMyProfile from "../screens/EditMyProfile";
 
 const Drawer = createDrawerNavigator();
 
@@ -41,6 +42,7 @@ const DrawerNavigator = () => {
         }}
         />
       <Drawer.Screen name="Sign Out" component={SecondaryStackNavigator} />
+      <Drawer.Screen name="Edit Profile" component={EditMyProfile} />
     </Drawer.Navigator>
   );
 }
