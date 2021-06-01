@@ -4,6 +4,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Home from "../screens/Home";
 import CreateNewCI from "../screens/CreateNewCI";
 import MyProfile from "../screens/MyProfile";
+import EditMyProfile from "../screens/EditMyProfile";
 
 const Stack = createStackNavigator();
 
@@ -46,7 +47,20 @@ const MainStackNavigator = () => {
                 },
               }}
             />
-            <Stack.Screen name="MyProfile" component={MyProfile} />
+            <Stack.Screen
+              name="My Profile"
+              component={MyProfile}
+              options={{
+                title: "My Profile",
+                headerStyle: {
+                  backgroundColor: '#21293D'
+                },
+                headerTintColor: '#fff',
+                headerTitleStyle: {
+                  fontWeight: 'bold'
+                },
+              }}
+            />
         </Stack.Navigator>
     );
 }
