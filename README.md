@@ -7,6 +7,12 @@
   
 ### User Manual
  <a id="UserManual" target="_blank" href="https://github.com/KyleGaunt/ContractInstructionModule/blob/e9a0966cf19e6bae732bc52c16b1b17d860eced9/Documentation/UserManual_CI_Application.pdf">User Manual</a>
+
+### About the Project
+The Contract Instruction Application has been designed to make the issuing, tracking and closing of CIs as simple and effective as possible. It allows users to send, receive and interact with CIs in real-time and on-the-go, be it in a corporate setting or on an active building site. The project uses cloud based infrastructure and is built on the React Native framework in order to be offered to Android, iOS and web-based users.
+
+### Developer Email
+u15330967@tuks.co.za
 <hr>
 
 <p align="center">
