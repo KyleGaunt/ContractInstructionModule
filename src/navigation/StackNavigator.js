@@ -4,6 +4,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Home from "../screens/Home";
 import CreateNewCI from "../screens/CreateNewCI";
 import MyProfile from "../screens/MyProfile";
+import EditMyProfile from "../screens/EditMyProfile";
 
 const Stack = createStackNavigator();
 

@@ -34,16 +34,9 @@ const MyProfile = async () => {
       } catch (error) {
         alert(`Failed to retrieve the object, with error code: ${error.message}`);
       }
-
   return (
     <View style={styles.center}>
       <Text />
-      <TouchableOpacity
-        // onPress={goToCreateNewCI}
-        style={styles.editProfileButton}
-      >
-        <Text style={styles.editProfileButtonText}>Edit</Text>
-     </TouchableOpacity>
       <Image
         style={styles.profilePicture}
         // source={profilePicture}
