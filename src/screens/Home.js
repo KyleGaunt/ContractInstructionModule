@@ -2,7 +2,6 @@ import React from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import Divider from 'react-native-divider';
 
-
 const Home = ({ navigation }) => {
   const goToCreateNewCI = () => navigation.navigate('CreateNewCI');
   return (

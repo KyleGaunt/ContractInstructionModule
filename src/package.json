@@ -9,7 +9,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "test": "jest"
   },
   "dependencies": {
     "@parse/react-native": "0.0.1-alpha.15",
@@ -39,7 +40,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "jest": "^27.0.4"
   },
   "private": true
 }

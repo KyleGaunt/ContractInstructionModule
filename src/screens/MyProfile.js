@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, StyleSheet, Text, Image, TouchableOpacity, Button } from "react-native";
 import Divider from "react-native-divider";
-import {IconButton, Colors, Icon } from "react-native-paper";
+import { IconButton, Colors, Icon } from "react-native-paper";
 
 // Database package
 import { initializeParse, useParseQuery } from  '@parse/react-native';
@@ -21,17 +21,16 @@ const MyProfile = async () => {
 
   const User = Parse.Object.extend("User");
   const query = new Parse.Query(User);
-
   try {
-        //Query the SoccerPlayers object using the objectId you've copied
-        const user = await query.get("BzHuAGNNel");
-        //access each object propertie using the get method
-        const username = user.get("username");
-        const firstName = user.get("firstName");
-        const lastName = user.get("lastName");
-        const email = user.get("email");
-        const password = user.get("password");
-        const company = user.get("company");
+        const userInfo = query.get("BzHuAGNNel");
+        const username = userInfo.get("username");
+        const firstName = userInfo.get("firstName");
+        const lastName = userInfo.get("lastName");
+        const email = userInfo.get("email");
+        const password = userInfo.get("password");
+        const company = userInfo.get("company");
+        const profilePicture = userInfo.get('profilePicture');
+        alert(username.toString());
       } catch (error) {
         alert(`Failed to retrieve the object, with error code: ${error.message}`);
       }
@@ -47,10 +46,10 @@ const MyProfile = async () => {
      </TouchableOpacity>
       <Image
         style={styles.profilePicture}
-        source={require("../assets/profilePicturePlaceholder.png")}
+        // source={profilePicture}
       />
       <Text />
-      <Text style={styles.todo}>{firstName} {lastName}</Text>
+      <Text style={styles.todo}>TODO: Get user firstName and lastName from DB</Text>
       <Text style={styles.todo}>TODO: Get user job from DB</Text>
       <Divider></Divider>
       <Text style={styles.todo}>TODO: Get user email address from DB</Text>
