@@ -1,19 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, StyleSheet, Text, Image, TouchableOpacity, Button } from "react-native";
 import Divider from "react-native-divider";
-import {IconButton, Colors, Icon } from "react-native-paper";
-import EditMyProfile from "../screens/EditMyProfile";
+import { IconButton, Colors, Icon } from "react-native-paper";
 
-const MyProfile = ({navigation}) => {
+// Database package
+import { initializeParse, useParseQuery } from  '@parse/react-native';
+
+const MyProfile = async () => {
+
+  const parseQuery = new Parse.Query('User');
+  const {
+    isLive,
+    isLoading,
+    isSyncing,
+    results,
+    count,
+    error,
+    reload
+  } = useParseQuery(parseQuery);
+
+  const User = Parse.Object.extend("User");
+  const query = new Parse.Query(User);
+  try {
+        const userInfo = query.get("BzHuAGNNel");
+        const username = userInfo.get("username");
+        const firstName = userInfo.get("firstName");
+        const lastName = userInfo.get("lastName");
+        const email = userInfo.get("email");
+        const password = userInfo.get("password");
+        const company = userInfo.get("company");
+        const profilePicture = userInfo.get('profilePicture');
+        alert(username.toString());
+      } catch (error) {
+        alert(`Failed to retrieve the object, with error code: ${error.message}`);
+      }
   return (
     <View style={styles.center}>
       <Text />
       <Image
         style={styles.profilePicture}
-        source={require("../assets/profilePicturePlaceholder.png")}
+        // source={profilePicture}
       />
       <Text />
-      <Text style={styles.todo}>TODO: Get user name and surname from DB</Text>
+      <Text style={styles.todo}>TODO: Get user firstName and lastName from DB</Text>
       <Text style={styles.todo}>TODO: Get user job from DB</Text>
       <Divider></Divider>
       <Text style={styles.todo}>TODO: Get user email address from DB</Text>
